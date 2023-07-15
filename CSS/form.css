@@ -1,0 +1,47 @@
+.form__labelText {
+    width: 100%;
+    max-width: 150px;
+    display: inline-block;
+    margin-right: 5px, auto
+
+}
+
+.form__field {
+    border: 1px solid #d22525;
+    padding: 5px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 50px;
+
+}
+
+.form__field:required {
+    border-color: black;
+    background-color: rgb(220, 220, 44);
+}
+
+.form__button {
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    margin: 15px 0;
+
+}
+
+.form__legend {
+    background-color: teal;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+
+}
+
+.form__fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+}
+
